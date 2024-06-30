@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+}
+body,
+html {
+    font-size: 13px;
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    font-family: "Montserrat", sans-serif;
+}
+.pt-50 {
+    padding-top: 80px;
+}
+.pt-80 {
+    padding-top: 80px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pt-120 {
+    padding-top: 120px;
+}
+.el-popover.el-popper {
+    min-width: 220px;
+    .el-button + .el-button {
+        background-color: var(--active);
+        border: 1px solid var(--active);
+    }
+}
+.el-drawer__body {
+    padding: 0;
+}
+.el-drawer__header {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

@@ -1,0 +1,15 @@
+// # import Helper Elelment
+@import "helper/helper";
+@import "helper/fonts";
+@import "helper/colors";
+// Global Components
+@import "global/header";
+@import "global/footer";
+// # Import Styles Pages #
+@import "pages/home";
+@import "pages/blogs";
+@import "pages/cover";
+@import "pages/newBlogs";
+
+// Responsive Style #
+@import "helper/responsive";
